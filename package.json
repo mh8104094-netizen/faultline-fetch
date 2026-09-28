@@ -1,0 +1,10 @@
+{
+  "name": "faultline-fetch",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Dependency-free fetch client with retries and a circuit breaker",
+  "exports": "./index.js",
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
