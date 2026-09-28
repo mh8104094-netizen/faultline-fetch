@@ -8,13 +8,13 @@ Network failures are normal. Retrying every request can duplicate writes, while 
 
 ## Quick start
 
-`0js
+```js
 import { createClient } from './index.js';
 
 const api = createClient({ retries: 2, timeoutMs: 4000 });
 const response = await api.request('https://example.com/health');
 console.log(await response.text());
-`0
+```
 
 Run `node --test` to execute the deterministic tests. No install step is needed.
 
